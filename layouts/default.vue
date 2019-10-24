@@ -52,8 +52,6 @@ body {
     Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 .container {
-  text-align: center;
-  padding-top: 200px;
   font-size: 20px;
   transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
 }
