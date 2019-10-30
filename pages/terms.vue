@@ -149,6 +149,15 @@
 
 <script>
 export default {
+	head() {
+		return {
+			title: 'Terms of Service',
+			meta:  [
+					{ name: 'description', content: 'This is the terms of services.'},
+					{ name: 'keywords', content: 'keywords, go, here'}
+			]
+		}
+	},
   transition: 'fadeOpacity'
 }
 </script>
