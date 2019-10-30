@@ -17,7 +17,9 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+    transition: 'fadeOpacity'
+
 };
 </script>
 
