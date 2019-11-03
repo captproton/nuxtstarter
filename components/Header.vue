@@ -1,34 +1,29 @@
 <template>
-<header class="vm-wp-header">
-    <div>
-        <nav class="vm-wp-nav">
-            <a href="/" class="vm-wp-brand animsition-link">
-                Dice Media Group
-            </a>
-        </nav>
+           <header>
+  <h1 class="logo">Dice Media Group</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a class="about-scroll" href="/#about">Who We Are</a></li>
+      <li><a class="about-scroll" href="/#services">What We Do</a></li>
+      <li><a href="/production" target="_blank">How We Do It</a></li>
+      <li><a href="#dmg-workwithus">Do It With Us</a></li>
+      <li><a href="https://dicemedia.bamboohr.com/jobs/" target="_blank">Join Us</a></li>
 
-        <div class="vm-wp-mobilectrl">
-            <button id="vm-menu-toggle" class="hamburger hamburger--squeeze">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </button>
-        </div>
-        <div id="vm-menu" class="vm-wp-sidenav">
-            <!-- <a href="/events" class="btn btn-default-noborder btn-caps btn-no-padding">Events</a>
-            <a href="https://boards.greenhouse.io/vaynermedia" class="btn btn-default-noborder btn-caps" target="_blank">Work for VM</a>
-            <a href="#vm-workwithus" class="btn btn-default btn-caps ctrl-scrollto">Become a Client</a>
-            <a href="#close" class="btn btn-default btn-thin visible-xs-block">
-                <i class="fa fa-chevron-up"></i>
-            </a> -->
-            <a class="about-scroll" href="/#about">Who We Are</a>
-            <a class="services-scroll" href="/#services">What We Do</a>
-            <a href="https://vaynerproductions.com" target="_blank">How We Do It</a>
-            <a href="#vm-workwithus">Do It With Us</a>
-            <a href="https://boards.greenhouse.io/vaynermedia" target="_blank">Join Our Fam</a>
-        </div>
-    </div>
-</header></template>
+
+        
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+
+
+
+
+</template>
 
 <script>
    export default{
@@ -37,5 +32,198 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+  --background: rgba(0, 214, 170, .85);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.content {
+  height: 200vh;
+  background-image: url(//unsplash.it/1000/1000);
+  background-color: #333;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+/* navigation styles start here */
+
+header {
+  background: var(--background);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+/* changed this from the tutorial video to
+   allow it to gain focus, making it tabbable */
+.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(lightblue, .75);
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: var(--background);
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(100px, 6fr) 1fr;
+  }
+  
+  .logo {
+    grid-column: 2 / 3;
+  }
+  
+  nav {
+    
+    /* the following lines are not from my video, but add Edge support */
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    /* end Edge support stuff */
+    
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}
+
 
 </style>
