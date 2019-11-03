@@ -1,20 +1,19 @@
 <template>
-    <div>
-        <div class="container">
-            <div class="page-headline">
-                <div class="service-summary-icon">
-                        <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010712/creative-blk.png" class="img-responsive">
-                </div>
-                <div class="text-center">
-                    <h4 class="text-pink text-uppercase">Service</h4>
-                    <h1 class="xl">Creative</h1>
-                </div>
+    <main>
+        <div class="headroom">&nbsp;</div>
+        <div class="page-headline">
+            <div class="service-summary-icon">
+                    <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010712/creative-blk.png" class="img-responsive">
+            </div>
+            <div class="text-center">
+                <h4 class="text-pink text-uppercase">Service</h4>
+                <h1 class="xl">Creative</h1>
             </div>
         </div>
 
         <article class="container single-post service-content">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="caption">
                     <blockquote class="manifesto manifesto-pink">
                         <h5 class="text-uppercase">Manifesto</h5>
                         Over 200 writers, designers, photographers, editors and animators with one common goal: blowing business objectives (and minds) out of the water.            </blockquote>
@@ -29,7 +28,7 @@
             </div>
         </article>
 
-    </div>
+    </main>
 </template>
 
 <script>
@@ -39,5 +38,35 @@
 </script>
 
 <style lang="scss" scoped>
+    main {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+
+    .headroom { 
+        grid-area: 1 / 1 / 2 / 2; 
+        }
+    .page-headline { 
+        margin-top: 45px;
+        margin: 30px auto;
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    article { grid-area: 3 / 1 / 4 / 2; }
+    section { grid-area: 4 / 1 / 5 / 2; }
+
+
+article .row {
+display: grid;
+grid-template-columns: 4fr 8fr;
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+
+.caption { grid-area: 1 / 1 / 2 / 2; }
+.single-post-content { grid-area: 1 / 2 / 2 / 3; }
 
 </style>

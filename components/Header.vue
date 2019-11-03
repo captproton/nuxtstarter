@@ -1,28 +1,23 @@
 <template>
-           <header>
-  <h1 class="logo">Dice Media Group</h1>
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <nav>
-    <ul>
-      <li><nuxt-link class="about-scroll" to="/#about">Who We Are</nuxt-link></li>
-      <li><nuxt-link class="about-scroll" to="/#services">What We Do</nuxt-link></li>
-      <li><a href="/services/production" target="_blank">How We Do It</a></li>
-      <li><nuxt-link to="/#dmg-workwithus">Do It With Us</nuxt-link></li>
-      <li><a href="https://dicemedia.bamboohr.com/jobs/" target="_blank">Join Us</a></li>
+  <header>
+    <h1 class="logo">Dice Media<br/>Group</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><nuxt-link class="about-scroll" to="/#about">Who We Are</nuxt-link></li>
+        <li><nuxt-link class="about-scroll" to="/#services">What We Do</nuxt-link></li>
+        <li><a href="/services/production" target="_blank">How We Do It</a></li>
+        <li><nuxt-link to="/#dmg-workwithus">Do It With Us</nuxt-link></li>
+        <li><a href="https://dicemedia.bamboohr.com/jobs/" target="_blank">Join Us</a></li>
 
 
-        
-    </ul>
-  </nav>
-  <label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-  </label>
-</header>
-
-
-
-
-
+          
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
 </template>
 
 <script>
@@ -44,14 +39,12 @@
 
 body {
 	margin: 0;
-	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
 
 .content {
   height: 200vh;
-  background-image: url(//unsplash.it/1000/1000);
   background-color: #333;
   background-blend-mode: multiply;
   background-size: cover;
