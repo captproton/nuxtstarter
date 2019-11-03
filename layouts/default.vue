@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <Header />
-    <nuxt />
+      <nuxt />
     <Footer />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
@@ -37,6 +37,7 @@ html {
   scroll-behavior: smooth;
 
 }
+
 *,
 *:before,
 *:after {
