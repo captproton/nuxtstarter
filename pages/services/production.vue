@@ -58,15 +58,16 @@
     section { grid-area: 4 / 1 / 5 / 2; }
 
 
-article .row {
-display: grid;
-grid-template-columns: 4fr 8fr;
-grid-template-rows: 1fr;
-grid-column-gap: 50px;
-grid-row-gap: 0px;
-}
+    article .row {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
 
-.caption { grid-area: 1 / 1 / 2 / 2; }
-.single-post-content { grid-area: 1 / 2 / 2 / 3; }
+    .caption { grid-area: 1 / 1 / 2 / 2; }
+    .single-post-content { grid-area: 1 / 2 / 2 / 3; }
 
 </style>
+
