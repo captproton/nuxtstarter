@@ -1,18 +1,10 @@
 <template>
-    <main>
-        <div class="headroom">&nbsp;</div>
-        <div class="page-headline">
-            <div class="service-summary-icon">
-            </div>
-            <div class="text-center">
-                <h4 class="text-pink text-uppercase">Service</h4>
-                <h1 class="xl">Privacy Policy</h1>
-            </div>
-        </div>
-
-        <article class="container single-post service-content">
+<main>
+  <div class="headroom">
+    &nbsp;
+  </div>
+  <article>
           <div class="container">
-                <p><nuxt-link to="/">Home page</nuxt-link></p>
             <hr>
                     <h1 class="text-center text-uppercase">Privacy Policy</h1>
                     <p><strong>This policy was last modified on January 28, 2019.</strong></p>
@@ -149,9 +141,10 @@
             <p>2467 S Cottage Cove</p>
             <p>Saratoga Springs,&nbsp;UT&nbsp;84045</p>
           </div>
-        </article>
 
-    </main>
+  </article>
+</main>
+
 </template>
 
 
@@ -162,37 +155,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    main {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px;
-    }
-
-    .headroom { 
-        grid-area: 1 / 1 / 2 / 2; 
-        }
-    .page-headline { 
-        margin-top: 45px;
-        margin: 30px auto;
-        grid-area: 2 / 1 / 3 / 2; 
-    }
-    article { grid-area: 3 / 1 / 4 / 2; }
-    section { grid-area: 4 / 1 / 5 / 2; }
-
-
-    article .row {
-    display: grid;
-    grid-template-columns: 4fr 8fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px;
-    }
-
-    .caption { grid-area: 1 / 1 / 2 / 2; }
-    .single-post-content { grid-area: 1 / 2 / 2 / 3; }
-
+.headroom {
+  height: 100px;
+}
+ .page-headline, #vm-workwithus .gform_heading {
+    margin: 30px auto;
+}
+.page-headline, #vm-workwithus .gform_heading {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
     .fadeOpacity-enter-active, .fadeOpacity-leave-active {
       transition: opacity .35s ease-out;
     }
@@ -200,4 +178,18 @@ export default {
     .fadeOpacity-enter, .fadeOpacity-leave-active {
       opacity: 0;
     }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+          grid-template-rows: 1fr auto minmax(150px, 1fr) 1fr;
+
+      grid-column-gap: 50px;
+      grid-row-gap: 0px;
+    }
+
+    .headroom { grid-area: 1 / 1 / 2 / 2; }
+    article { grid-area: 2 / 1 / 3 / 2; }
+
 </style>
+    grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
