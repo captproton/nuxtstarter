@@ -1,6 +1,11 @@
 <template>
     <div>
         <a name="workwithus"></a>
+              <div class="spacer">&nbsp;</div>
+      <div class="spacer">&nbsp;</div>
+      <div class="spacer">&nbsp;</div>
+      <div class="spacer">&nbsp;</div>
+
         <div id="vm-workwithus" class="black color-teal">
             <div class="container">
                 <div class="row">

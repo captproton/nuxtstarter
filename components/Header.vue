@@ -7,7 +7,7 @@
         <li><nuxt-link class="about-scroll" to="/#about">Who We Are</nuxt-link></li>
         <li><nuxt-link class="about-scroll" to="/#services">What We Do</nuxt-link></li>
         <li><a href="/services/production" target="_blank">How We Do It</a></li>
-        <li><nuxt-link to="/#dmg-workwithus">Do It With Us</nuxt-link></li>
+        <li><nuxt-link to="/#workwithus">Do It With Us</nuxt-link></li>
         <li><a href="https://dicemedia.bamboohr.com/jobs/" target="_blank">Join Us</a></li>
 
 
