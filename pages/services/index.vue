@@ -11,99 +11,85 @@
 			<ul>
 				<li class="service-summary">
 	                <div class="service-summary-icon">
-	                    <a class="animsition-link" href="https://vaynermedia.com/service/strategy/">
+	                    <a class="animsition-link" href="/services/strategy/">
 	                        <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010743/strategy-blk.png" class="img-responsive">
 	                    </a>
 	                </div>
 	                <div class="service-summary-info">
 	                    <h4 class="service-summary-title">Strategy</h4>
 	                    <p>With data capabilities of a media agency coupled with the cultural analysis of a creative-driven research firm, we bring companies closer to their customers.</p>
-	                    <a class="animsition-link" href="https://vaynermedia.com/service/strategy/"><strong>Learn More &gt;</strong></a>
+	                    <a class="animsition-link" href="/services/strategy/"><strong>Learn More &gt;</strong></a>
 	                </div>					
 				</li>
 				<li>
 		                <div class="row service-summary">
 		                    <div class="service-summary-icon">
-		                        <a class="animsition-link" href="https://vaynermedia.com/service/creative/">
+		                        <a class="animsition-link" href="/services/creative/">
 		                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010712/creative-blk.png" class="img-responsive">
 		                        </a>
 		                    </div>
 		                    <div class="service-summary-info">
 		                        <h4 class="service-summary-title">Creative</h4>
 		                        <p>Over 200 writers, designers, photographers, editors and animators with one common goal: blowing business objectives (and minds) out of the water.</p>
-		                        <a class="animsition-link" href="https://vaynermedia.com/service/creative/"><strong>Learn More &gt;</strong></a>
+		                        <a class="animsition-link" href="/services/creative/"><strong>Learn More &gt;</strong></a>
 		                    </div>
 		                </div>					
 				</li>
 				<li>
 		            <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/paid-media/">
+	                        <a class="animsition-link" href="/services/paid-media/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010727/paid-blk.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
 	                        <h4 class="service-summary-title">Paid Media</h4>
 	                        <p>Built for today's market, we value being practitioners on every digital platform we oversee and are focused on driving real business results.</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/paid-media/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/paid-media/"><strong>Learn More &gt;</strong></a>
 	                    </div>					
 	                </div>
 				</li>
 				<li>
 	                <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/ecommerce/">
+	                        <a class="animsition-link" href="/services/ecommerce/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010717/ecomm-blk.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
 	                        <h4 class="service-summary-title">eCommerce</h4>
 	                        <p>A one-stop shop for eCommerce business building and marketing across owned dot-coms and marketplaces.</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/ecommerce/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/ecommerce/"><strong>Learn More &gt;</strong></a>
 	                    </div>
 	                </div>					
 				</li>
 				<li>
 	                <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/production/">
+	                        <a class="animsition-link" href="/services/production/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010732/prod-blk.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
 	                        <h4 class="service-summary-title">Production</h4>
 	                        <p>We’re a full-service content laboratory for the 21st century. In-house studios furnished with modern equipment make our end-to-end process streamlined and nimble.</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/production/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/production/"><strong>Learn More &gt;</strong></a>
 	                    </div>
 	                </div>
 					
 				</li>
+
 				<li>
 	                <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/4ds/">
-	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2017/05/07041858/4D_Icon_black.png" class="img-responsive">
-	                        </a>
-	                    </div>
-	                    <div class="service-summary-info">
-	                        <h4 class="service-summary-title">4Ds</h4>
-	                        <p>A full-day immersion into digital marketing the VaynerX way. We give you the tools, resources, tactics, and community!</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/4ds/"><strong>Learn More &gt;</strong></a>
-	                    </div>
-	                </div>
-					
-				</li>
-				<li>
-	                <div class="row service-summary">
-	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/vaynerexperience/">
+	                        <a class="animsition-link" href="/services/experience/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010722/exp-blk.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
-	                        <h4 class="service-summary-title">VaynerExperience</h4>
+	                        <h4 class="service-summary-title">DMG Experience</h4>
 	                        <p>We specialize in finding underpriced attention, understanding emerging trends, and capitalizing on cultural moments.</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/vaynerexperience/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/experience/"><strong>Learn More &gt;</strong></a>
 	                    </div>
 	                </div>
 					
@@ -111,29 +97,29 @@
 				<li>
 	                <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/influencers/">
+	                        <a class="animsition-link" href="/services/influencers/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2017/02/13191948/influencers-icon1.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
 	                        <h4 class="service-summary-title">Influencers</h4>
 	                        <p>Coordinate influencer programs to create tastefully-branded assets that pass equity from their passionate audiences to our clients.</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/influencers/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/influencers/"><strong>Learn More &gt;</strong></a>
 	                    </div>
 	                </div>					
 				</li>
 				<li>
 	                <div class="row service-summary">
 	                    <div class="service-summary-icon">
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/vaynertalent/">
+	                        <a class="animsition-link" href="/services/talent/">
 	                            <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2017/02/10202405/talent-icon.png" class="img-responsive">
 	                        </a>
 	                    </div>
 	                    <div class="service-summary-info">
-	                        <h4 class="service-summary-title">VaynerTalent</h4>
+	                        <h4 class="service-summary-title">DMG Talent</h4>
 	                        <p>"Document, don't create" - the future of personal branding. <br>
 	</p>
-	                        <a class="animsition-link" href="https://vaynermedia.com/service/vaynertalent/"><strong>Learn More &gt;</strong></a>
+	                        <a class="animsition-link" href="/services/talent/"><strong>Learn More &gt;</strong></a>
 	                    </div>
 	                </div>					
 				</li>
