@@ -1,4 +1,10 @@
 <template>
+<main>
+  <div class="headroom">
+    &nbsp;
+  </div>
+  <article>
+
   <div class="container">
 
     <p><nuxt-link to="/">Home page</nuxt-link></p>
@@ -145,29 +151,54 @@
 <p>&nbsp;</p>
     
   </div>
+  </article>
+</main>
+
 </template>
+
 
 <script>
 export default {
-	head() {
-		return {
-			title: 'Terms of Service',
-			meta:  [
-					{ name: 'description', content: 'This is the terms of services.'},
-					{ name: 'keywords', content: 'keywords, go, here'}
-			]
-		}
-	},
   transition: 'fadeOpacity'
 }
 </script>
 
-<style>
-.fadeOpacity-enter-active, .fadeOpacity-leave-active {
-  transition: opacity .35s ease-out;
+<style lang="scss" scoped>
+.headroom {
+  height: 100px;
 }
+ .page-headline, #vm-workwithus .gform_heading {
+    margin: 30px auto;
+}
+.page-headline, #vm-workwithus .gform_heading {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+    .fadeOpacity-enter-active, .fadeOpacity-leave-active {
+      transition: opacity .35s ease-out;
+    }
 
-.fadeOpacity-enter, .fadeOpacity-leave-active {
-  opacity: 0;
-}
+    .fadeOpacity-enter, .fadeOpacity-leave-active {
+      opacity: 0;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+          grid-template-rows: 1fr auto minmax(150px, 1fr) 1fr;
+
+      grid-column-gap: 50px;
+      grid-row-gap: 0px;
+    }
+
+    .headroom { grid-area: 1 / 1 / 2 / 2; }
+    article { grid-area: 2 / 1 / 3 / 2; }
+
 </style>
+

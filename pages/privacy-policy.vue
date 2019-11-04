@@ -192,4 +192,4 @@ h1 {
     article { grid-area: 2 / 1 / 3 / 2; }
 
 </style>
-    grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
+
