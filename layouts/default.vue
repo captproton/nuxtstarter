@@ -2,6 +2,7 @@
   <div class="main">
     <Header />
       <nuxt />
+    <WorkWithUs />
     <Footer />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
@@ -11,11 +12,13 @@
 
 <script>
 import Header from "~/components/Header.vue";
+import WorkWithUs from "~/components/WorkWithUs.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Header,
+    WorkWithUs,
     Footer
   },
     transition: 'fadeOpacity'
