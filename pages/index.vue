@@ -126,29 +126,14 @@
         </div>
         <div class="row">
             <div class="col-xs-6 col-sm-3 home-location">
-                <img src="https://vaynermedia.com/wp-content/themes/vm2017/assets/img/locations/NY-blk.png" title="" class="img-responsive">
-                <h4 class="color-teal">NEW YORK</h4>
+                <img src="@/assets/images/dn_beehive_901.jpg">
+                <h4 class="color-teal">SALT LAKE CITY</h4>
                 <!--<p>XXXX Address St.<br>New York, NY</p>-->
             </div>
             <div class="col-xs-6 col-sm-3 home-location">
-                <img src="https://vaynermedia.com/wp-content/themes/vm2017/assets/img/locations/LA-blk.png" title="" class="img-responsive">
-                <h4 class="color-teal">LOS ANGELES</h4>
+                <img src="@/assets/images/golden-gate-bridge-svgrepo-com.svg" title="" class="img-responsive">
+                <h4 class="color-teal">SAN FRANCISCO</h4>
                 <!--<p>15000 Ventura Blvd. Fl 3<br>Los Angeles, CA</p>-->
-            </div>
-            <div class="col-xs-6 col-sm-3 home-location">
-                <img src="https://vaynermedia.com/wp-content/themes/vm2017/assets/img/locations/TN-blk.png" title="" class="img-responsive">
-                <h4 class="color-teal">CHATTANOOGA</h4>
-                <!--<p>XXXX Address St.<br>Chattanooga, TN</p>-->
-            </div>
-            <div class="col-xs-6 col-sm-3 home-location">
-                <img src="https://vaynermedia.com/wp-content/themes/vm2017/assets/img/locations/UK-blk.png" title="" class="img-responsive">
-                <h4 class="color-teal">LONDON</h4>
-                <!--<p>XXXX Address St.<br>London, UK</p>-->
-            </div>
-            <div class="col-xs-6 col-sm-3 home-location">
-                <img src="https://vaynermedia.com/wp-content/themes/vm2017/assets/img/locations/SP-blk.png" title="" class="img-responsive">
-                <h4 class="color-teal">SINGAPORE</h4>
-                <!--<p>XXXX Address St.<br>London, UK</p>-->
             </div>
         </div>
         <div class="row text-center location-container">
