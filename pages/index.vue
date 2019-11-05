@@ -124,21 +124,22 @@
                 And we bring heart to that hustle, because with empathy is how we operate.
             </p>
         </div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 home-location">
-                <img src="@/assets/images/dn_beehive_901.jpg">
-                <h4 class="color-teal">SALT LAKE CITY</h4>
-                <!--<p>XXXX Address St.<br>New York, NY</p>-->
+        <div class="cities-grid">
+            <div class="slc home-location">
+                <img src="@/assets/images/dn_beehive_901.jpg" height="243">
             </div>
-            <div class="col-xs-6 col-sm-3 home-location">
-                <img src="@/assets/images/golden-gate-bridge-svgrepo-com.svg" title="" class="img-responsive">
+            <div class="sfo home-location">
+                <img src="@/assets/images/golden-gate-bridge-svgrepo-com.svg" title="" class="img-responsive" height="243">
+            </div>
+            <div class="slc-caption home-location">
+                <h4 class="color-teal">SALT LAKE CITY</h4>
+                <!--<p>XXXX Address St.<br>SALT LAKE CITY, UT</p>-->
+            </div>
+            <div class="sfo-caption home-location">
                 <h4 class="color-teal">SAN FRANCISCO</h4>
-                <!--<p>15000 Ventura Blvd. Fl 3<br>Los Angeles, CA</p>-->
+                <!--<p>XXXX Address St.<br>SAN FRANCISCO, CA</p>-->
             </div>
         </div>
-        <div class="row text-center location-container">
-            <a class="btn btn-default" href="https://vaynerx.com" target="_blank">Explore the VaynerX Family</a>
-        </div> <!-- .row -->
     </div>
 </section>
 <!--  -->
@@ -165,5 +166,48 @@ grid-row-gap: 0px;
 .ecommerce { grid-area: 2 / 1 / 3 / 2; }
 .production { grid-area: 2 / 2 / 3 / 3; }
 .experience { grid-area: 2 / 3 / 3 / 4; }
+
+
+.cities-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+
+.slc { 
+    grid-area: 1 / 1 / 2 / 2; 
+    }
+.sfo { grid-area: 1 / 2 / 2 / 3; }
+
+
+.cities-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 9fr 3fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+
+.slc { 
+    grid-area: 1 / 1 / 2 / 2; 
+    justify-content: left;
+    
+}
+.sfo { 
+    grid-area: 1 / 2 / 2 / 3; 
+    justify-content: left;
+    
+}
+.slc-caption { 
+    grid-area: 2 / 1 / 3 / 2; 
+    justify-content: left;
+}
+.sfo-caption { 
+    grid-area: 2 / 2 / 3 / 3; 
+    justify-content: left;
+
+}
 
 </style>
