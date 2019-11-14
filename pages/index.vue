@@ -9,42 +9,42 @@
         <div class="form-group">
             <div class="services-row">
                 <div class="strategy service-tile">
-                    <a href="https://vaynermedia.com/service/strategy/" class="pink-hov-link animsition-link">
+                    <a href="/services/strategy/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010743/strategy-blk.png" class="img-responsive">
                         <h4>Strategy</h4>
                         <!-- <p>With data capabilities of a media agency coupled with the cultural analysis of a creative-driven research firm, we bring companies closer to their customers.</p> -->
                     </a>
                 </div>
                 <div class="creative service-tile">
-                    <a href="https://vaynermedia.com/service/creative/" class="pink-hov-link animsition-link">
+                    <a href="/services/creative/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010712/creative-blk.png" class="img-responsive">
                         <h4>Creative</h4>
                         <!-- <p>Over 200 writers, designers, photographers, editors and animators with one common goal: blowing business objectives (and minds) out of the water.</p> -->
                     </a>
                 </div>
                 <div class="paid-media service-tile">
-                    <a href="https://vaynermedia.com/service/paid-media/" class="pink-hov-link animsition-link">
+                    <a href="/services/paid-media/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010727/paid-blk.png" class="img-responsive">
                         <h4>Paid Media</h4>
                         <!-- <p>Built for today's market, we value being practitioners on every digital platform we oversee and are focused on driving real business results.</p> -->
                     </a>
                 </div>
                 <div class="ecommerce service-tile">
-                    <a href="https://vaynermedia.com/service/ecommerce/" class="pink-hov-link animsition-link">
+                    <a href="/services/ecommerce/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010717/ecomm-blk.png" class="img-responsive">
                         <h4>eCommerce</h4>
                         <!-- <p>A one-stop shop for eCommerce business building and marketing across owned dot-coms and marketplaces.</p> -->
                     </a>
                 </div>
                 <div class="production service-tile">
-                    <a href="https://vaynermedia.com/service/production/" class="pink-hov-link animsition-link">
+                    <a href="/services/production/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010732/prod-blk.png" class="img-responsive">
                         <h4>Production</h4>
                         <!-- <p>We’re a full-service content laboratory for the 21st century. In-house studios furnished with modern equipment make our end-to-end process streamlined and nimble.</p> -->
                     </a>
                 </div>
                 <div class="experience service-tile">
-                    <a href="https://vaynermedia.com/service/vaynerexperience/" class="pink-hov-link animsition-link">
+                    <a href="/services/vaynerexperience/" class="pink-hov-link animsition-link">
                         <img src="https://s3.amazonaws.com/vm.com-2017/wp-content/uploads/2019/01/29010722/exp-blk.png" class="img-responsive">
                         <h4>DMG Experience</h4>
                         <!-- <p>We specialize in finding underpriced attention, understanding emerging trends, and capitalizing on cultural moments.</p> -->
@@ -129,7 +129,7 @@
                 <img src="@/assets/images/dn_beehive_901.jpg" height="243">
             </div>
             <div class="sfo home-location">
-                <img src="@/assets/images/golden-gate-bridge-svgrepo-com.svg" title="" class="img-responsive" height="243">
+                <img src="@/assets/images/gg_bridge_cartoon.jpg" height="243">
             </div>
             <div class="slc-caption home-location">
                 <h4 class="color-teal">SALT LAKE CITY</h4>
@@ -167,7 +167,18 @@ grid-row-gap: 0px;
 .production { grid-area: 2 / 2 / 3 / 3; }
 .experience { grid-area: 2 / 3 / 3 / 4; }
 
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .cities-grid {
 display: grid;
 grid-template-columns: repeat(2, 1fr);

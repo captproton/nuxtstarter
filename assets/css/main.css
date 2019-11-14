@@ -21,17 +21,30 @@ p {
     line-height: 1.4em;
 }
 
-  .page-enter-active {
-    animation: bounce-in .8s;
-  }
-  .page-leave-active {
-    animation: bounce-out .5s;
-  }
-  @keyframes bounce-in {
-    0% { transform: scale(.9); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-  @keyframes bounce-out {
-    0% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(.9); opacity: 0; }
-  }
+.page-enter-active {
+  animation: bounce-in .8s;
+}
+.page-leave-active {
+  animation: bounce-out .5s;
+}
+@keyframes bounce-in {
+  0% { transform: scale(.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes bounce-out {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(.9); opacity: 0; }
+}
+
+  h1, .h1, #vm-workwithus h3.gform_title, h2, .h2, h3, .h3 {
+    margin-top: 19pt;
+    margin-bottom: 9.5pt;
+}
+
+h1, .h1, #vm-workwithus h3.gform_title {
+  font-size: 33pt;
+}
+
+.text-uppercase, .initialism {
+  text-transform: uppercase;
+}
