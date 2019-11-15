@@ -149,8 +149,11 @@
 
 <style>
 .container {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  padding: 60px;
+  display: block;
+  font-family: "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.6;
+  color: #3d3b3b;
 }
 .services-row {
 display: grid;

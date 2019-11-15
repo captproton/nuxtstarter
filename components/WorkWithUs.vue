@@ -64,21 +64,19 @@
                                     </div>
                                 </li>
                                 <!--  -->
-                                <li id="field_2_37" class="addl-info ">
+                                <li id="field_2_37" class="addl-info 
+                                    gfield">
                                     <label class="gfield_label">
                                         <span class="gfield_required">*</span>
                                     </label>
                                     <div class="ginput_container ginput_container_checkbox">
                                         <ul class="gfield_checkbox" id="input_2_37">
                                             <li class="gchoice_2_37_1">
-                                                <input name="input_37.1" 
-                                                    type="checkbox" 
-                                                    value="<p><span class='asterisk-red'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>" 
-                                                    id="choice_2_37_1"
-                                                >
-                                                <label for="choice_2_37_1" id="label_2_37_1">
-                                                    <p><span class="asterisk-red">*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href="/privacy-policy">Privacy Policy</a></p>
-                                                </label>
+                                                <!--  -->
+                                                    <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="<p><span class='asterisk-red'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>">
+    <label for="styled-checkbox-2" class="addl-info-label">Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href="/privacy-policy">Privacy Policy</a></label>
+                                                <!--  -->
+
                                             </li>
                                         </ul>
                                     </div>
@@ -113,7 +111,9 @@
 </script>
 
 <style lang="scss" scoped>
-
+    body .gform_wrapper .top_label div.ginput_container {
+        margin-top:8px
+    }
     .black {
         background-color: 
         black;
@@ -132,11 +132,39 @@
     #dmg-workwithus .gform_wrapper .top_label .gfield_label {
         font-family: "Unica One", Helvetica, Arial, sans-serif;
     }
+
+    .top_label div.ginput_container {
+    margin-top: 8px;
+    }
+
     label {
         float: left;
         text-align: left;
         margin-right: 15px;
         text-transform: uppercase;
+    }
+    
+    .addl-info-label {
+                font-family: "Unica One", Helvetica, Arial, sans-serif;
+
+        padding-left: 25px;
+        min-height: 19pt;
+        padding-left: 20px;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+        width: 85%;
+        display: inline-block;
+        letter-spacing: inherit;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        line-height: 1.5;
+        font-size: .875em;
+        max-width: 85%;
+        white-space: normal;
+        text-indent: 0;
     }
 
     .gfield_label {
@@ -157,19 +185,109 @@
     .gform_heading {
         margin: 30px auto;
         font-family: "Unica One", serif;
-        font-size: 48px;
+        color: #66fcf1 !important;
     }
-    
+    h3.gform_title {
+        text-transform: uppercase;
+        font-size: 2.6rem;
+        margin-bottom: 9.5pt;
+        font-family: "Unica One", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        color: inherit;
+        letter-spacing: normal !important;
+        margin: 10px 0 6px;
+    }
     #dmg-workwithus #field_2_38 label, #dmg-workwithus #field_2_20 label, #dmg-workwithus #field_2_42 label {
         text-transform: uppercase;
     }
 
-    div.ginput_container {
-        margin-top: 8px;
+    #dmg-workwithus .ginput_container_radio li input[type="checkbox"], #dmg-workwithus .ginput_container_radio li input[type="radio"], #dmg-workwithus .gfield_checkbox li input[type="checkbox"], #dmg-workwithus .gfield_checkbox li input[type="radio"] {
+        margin-left: 0;
+        top: -3px;
+        position: absolute;
+        width: auto !important;
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
     }
+    
+    /* */
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
 
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: #f35429;
+  }
+  
+  // Box focus
+  &:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: #f35429;
+  }
+  
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 white,
+      4px 0 0 white,
+      4px -2px 0 white,
+      4px -4px 0 white,
+      4px -6px 0 white,
+      4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
+
+    /* */
     .gform_wrapper li {
         list-style: none !important;
+        color: #66fcf1 !important;
     }
     .gform_wrapper label.gfield_label {
      font-weight:700;
