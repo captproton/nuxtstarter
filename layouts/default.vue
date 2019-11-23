@@ -47,6 +47,7 @@ export default {
     box-sizing: border-box;
     margin: 0;
   }
+  
   .button--green {
     display: inline-block;
     border-radius: 4px;
@@ -159,4 +160,7 @@ export default {
   .caption { grid-area: 1 / 1 / 2 / 2; }
   .single-post-content { grid-area: 1 / 2 / 2 / 3; }
 
+  footer  {
+
+  }
 </style>

@@ -1,7 +1,12 @@
 body {
-    font-family: 'Montserrat';
-    margin: 0;
-}
+  display: block;
+  font-family: "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.6;
+  color: #3d3b3b;
+  background-color: #fff;
+  overflow-x: hidden; }
+  
 section {
     padding: 5em;
 }
@@ -20,7 +25,9 @@ p {
     font-size: 1.2em;
     line-height: 1.4em;
 }
-
+a:visited {
+  text-decoration: none;
+}
 .page-enter-active {
   animation: bounce-in .8s;
 }
