@@ -1,6 +1,9 @@
 <template>
   <div>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unica+One" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Unica+One"
+    />
 
     <a name="workwithus"></a>
     <div id="dmg-workwithus" class="black color-teal">
@@ -15,54 +18,43 @@
           </div>
 
           <div class="gform_body">
-            <ul class="gform_fields top_label form_sublabel_above description_above">
+            <ul
+              class="gform_fields top_label form_sublabel_above description_above"
+            >
               <li class="interest gfield gfield_label">
                 <label for="input_2_42">
-                  <span class="asterisk-red">*&nbsp;</span>Tell Us What You're Interested In
+                  <span class="asterisk-red">*&nbsp;</span>Tell Us What You're
+                  Interested In
                 </label>
-                <div class="select">
-                  <select
-                    name="input_42"
-                    id="input_2_42"
-                    class="large gfield_select s-hidden"
-                    aria-required="true"
-                    aria-invalid="false"
-                    required
-                  >
-                    <option value selected="selected" class="gf_placeholder">Please Select:</option>
-                    <option
-                      value="Full Service: Creative, Strategy, Media"
-                      selected="selected"
-                    >Full Service: Creative, Strategy, Media</option>
-                    <option
-                      value="Consulting Offerings: 4Ds, MediaMentors"
-                    >Consulting Offerings: 4Ds, MediaMentors</option>
-                    <option
-                      value="Small to Midsize Business Offerings"
-                    >Small to Midsize Business Offerings</option>
-                    <option
-                      value="Other VaynerMedia Services: DiceTalent, DiceExperience, Etc."
-                    >Other VaynerMedia Services: DiceTalent, DiceExperience, Etc.</option>
-                    <option value="Studio/Production">Studio/Production</option>
-                    <option value="Press &amp; Other Inquires">Press &amp; Other Inquires</option>
-                  </select>
-                </div>
+                <v-select :options="options" />
               </li>
-              <li class="name gfield_label">
+              <li class="name gfield_label ginput_container_text">
                 <label for="name">
                   <span class="asterisk-red">*&nbsp;</span>Name
                 </label>
                 <br />
-                <input type="email" name="Name" placeholder="Name" id="name" required />
+                <input
+                  type="email"
+                  name="Name"
+                  placeholder="Name"
+                  id="name"
+                  required
+                />
               </li>
-              <li class="email gfield_label">
+              <li class="email gfield_label ginput_container_text">
                 <label for="email">
                   <span class="asterisk-red">*&nbsp;</span>Email
                 </label>
                 <br />
-                <input type="email" name="email" placeholder="Email" id="email" required />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  id="email"
+                  required
+                />
               </li>
-              <li class="company-name gfield_label">
+              <li class="company-name gfield_label ginput_container_text">
                 <label for="company_name">
                   <span class="asterisk-red">*&nbsp;</span>Company Name
                 </label>
@@ -91,7 +83,10 @@
                 </div>
               </li>
               <!--  -->
-              <li id="field_2_37" class="gfield acknowledgement gfield_contains_required">
+              <li
+                id="field_2_37"
+                class="gfield acknowledgement gfield_contains_required"
+              >
                 <div class="ginput_container ginput_container_checkbox">
                   <ul class="gfield_checkbox" id="input_2_37">
                     <li class="gchoice_2_37_1">
@@ -106,11 +101,16 @@
                       />
                     </li>
                     <li>
-                      <label for="choice_2_37_1 gfield_required" id="label_2_37_1">
+                      <label
+                        for="choice_2_37_1 gfield_required"
+                        id="label_2_37_1"
+                      >
                         <p>
                           <span class="asterisk-red">*</span>
-                          Yes, I'd also like to receive information about additional products or
-                          services that may be of interest to me. Information submitted through this form is subject to our Privacy Policy.
+                          Yes, I'd also like to receive information about
+                          additional products or services that may be of
+                          interest to me. Information submitted through this
+                          form is subject to our Privacy Policy.
                         </p>
                       </label>
                     </li>
@@ -119,10 +119,9 @@
               </li>
               <!--  -->
               <li class="gfield_links">
-                <a
-                  href="https://dicemedia.bamboohr.com/jobs/"
-                  target="_blank"
-                >Dice Media Group Careers</a>
+                <a href="https://dicemedia.bamboohr.com/jobs/" target="_blank"
+                  >Dice Media Group Careers</a
+                >
               </li>
             </ul>
           </div>
@@ -141,7 +140,13 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      options: ["foo", "bar", "baz"]
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -238,6 +243,11 @@ form h3 {
   margin-bottom: 9.5pt;
   color: #66fcf1;
 }
+
+/* interest select start */
+
+/* interest select finish */
+
 ul.gfield_checkbox {
   list-style-type: none;
   display: grid;
@@ -354,11 +364,11 @@ gform_footer {
 }
 
 .form-control,
-#vm-workwithus .ginput_container_text input,
-#vm-workwithus .ginput_container_phone input,
-#vm-workwithus .ginput_container_email input,
-#vm-workwithus .ginput_container_select select,
-#vm-workwithus .ginput_container_textarea textarea {
+#dmg-workwithus .interest .v-select,
+#dmg-workwithus .ginput_container_text input,
+#dmg-workwithus .ginput_container_phone input,
+#dmg-workwithus .ginput_container_email input,
+#dmg-workwithus .ginput_container_textarea textarea {
   display: block;
   width: 100%;
   height: 30pt;
@@ -372,6 +382,10 @@ gform_footer {
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+#dmg-workwithus .ginput_container_textarea textarea {
+  height: 80pt;
 }
 
 /* Media Queries */
