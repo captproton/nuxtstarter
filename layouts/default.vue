@@ -129,38 +129,34 @@ export default {
   }
 
   /* content pages default styles */
-      main {
-      display: grid;
-      grid-template-columns: 2fr;
-      grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
-      grid-column-gap: 50px;
-      grid-row-gap: 0px;
-      }
+  main {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr auto minmax(100px, 6fr) 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+  }
 
-      .headroom { 
-          grid-area: 1 / 1 / 2 / 2; 
-          }
-      .page-headline { 
-          margin-top: 45px;
-          margin: 30px auto;
-          grid-area: 2 / 1 / 3 / 2; 
+  .headroom { 
+      grid-area: 1 / 1 / 2 / 2; 
       }
-      article { grid-area: 3 / 1 / 4 / 2; }
-      section { grid-area: 4 / 1 / 5 / 2; }
+  .page-headline { 
+      margin-top: 45px;
+      margin: 30px auto;
+      grid-area: 2 / 1 / 3 / 2; 
+  }
+  article { grid-area: 3 / 1 / 4 / 2; }
+  section { grid-area: 4 / 1 / 5 / 2; }
 
 
   article .row {
-  display: grid;
-  grid-template-columns: 4fr 8fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 50px;
-  grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
   }
 
   .caption { grid-area: 1 / 1 / 2 / 2; }
   .single-post-content { grid-area: 1 / 2 / 2 / 3; }
-
-  footer  {
-
-  }
 </style>
