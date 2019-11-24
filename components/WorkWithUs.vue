@@ -12,7 +12,12 @@
       <div class="spacer">&nbsp;</div>
       <div class="spacer">&nbsp;</div>
       <div class="form_wrapper color-teal">
-        <form method="post" enctype="multipart/form-data" target id action>
+        <form
+          method="post"
+          enctype="multipart/form-data"
+          name="lets_connect"
+          netlify
+        >
           <div class="gform_heading">
             <h3 class="gform_title">LET'S CONNECT</h3>
           </div>
@@ -33,13 +38,7 @@
                   <span class="asterisk-red">*&nbsp;</span>Name
                 </label>
                 <br />
-                <input
-                  type="email"
-                  name="Name"
-                  placeholder="Name"
-                  id="name"
-                  required
-                />
+                <input type="email" name="Name" placeholder="Name" id="name" />
               </li>
               <li class="email gfield_label ginput_container_text">
                 <label for="email">
@@ -51,7 +50,6 @@
                   name="email"
                   placeholder="Email"
                   id="email"
-                  required
                 />
               </li>
               <li class="company-name gfield_label ginput_container_text">
@@ -64,7 +62,6 @@
                   name="company_name"
                   placeholder="Company Name"
                   id="company_name"
-                  required
                 />
               </li>
               <li class="form-spacer"></li>
