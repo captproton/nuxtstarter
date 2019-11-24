@@ -38,7 +38,7 @@
                   <span class="asterisk-red">*&nbsp;</span>Name
                 </label>
                 <br />
-                <input type="email" name="Name" placeholder="Name" id="name" />
+                <input type="name" name="Name" placeholder="Name" id="name" />
               </li>
               <li class="email gfield_label ginput_container_text">
                 <label for="email">
