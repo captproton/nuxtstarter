@@ -143,7 +143,14 @@
 export default {
   data() {
     return {
-      options: ["foo", "bar", "baz"]
+      options: [
+        "Full Service: Creative, Strategy, Media",
+        "Consulting Offerings: 4Ds, MediaMentors",
+        "Small to Midsize Business Offerings",
+        "Other Services: DMGTalent, DMGExperience, Etc.",
+        "Studio/Production",
+        "Press & Other Inquires"
+      ]
     };
   }
 };
@@ -364,7 +371,7 @@ gform_footer {
 }
 
 .form-control,
-#dmg-workwithus .interest .v-select,
+#dmg-workwithus .v-select,
 #dmg-workwithus .ginput_container_text input,
 #dmg-workwithus .ginput_container_phone input,
 #dmg-workwithus .ginput_container_email input,
@@ -382,6 +389,7 @@ gform_footer {
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  font-family: "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
 }
 
 #dmg-workwithus .ginput_container_textarea textarea {
