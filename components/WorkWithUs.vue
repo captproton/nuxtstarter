@@ -31,7 +31,7 @@
                   <span class="asterisk-red">*&nbsp;</span>Tell Us What You're
                   Interested In
                 </label>
-                <v-select :options="options" />
+                <v-select name="input_42" :options="options" />
               </li>
               <li class="name gfield_label ginput_container_text">
                 <label for="name">
