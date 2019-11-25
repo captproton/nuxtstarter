@@ -88,10 +88,10 @@
                   <ul class="gfield_checkbox" id="input_2_37">
                     <li class="gchoice_2_37_1">
                       <input
-                        name="input_37.1"
+                        name="more_info"
                         type="checkbox"
-                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>"
                         id="choice_2_37_1"
+                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>"
                       />
                     </li>
                     <li>
