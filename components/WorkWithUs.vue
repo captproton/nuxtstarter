@@ -31,7 +31,7 @@
                   <span class="asterisk-red">*&nbsp;</span>Tell Us What You're
                   Interested In
                 </label>
-                <v-select name="input_42" :options="options" />
+                <v-select :name="input_42" :options="options" />
               </li>
               <li class="name gfield_label ginput_container_text">
                 <label for="name">
@@ -90,10 +90,7 @@
                       <input
                         name="input_37.1"
                         type="checkbox"
-                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive 
-                                                    information about additional products or services that may be of interest to me. 
-                                                    Information submitted through this form is subject to our 
-                                                    <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>"
+                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>"
                         id="choice_2_37_1"
                       />
                     </li>
