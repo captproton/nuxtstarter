@@ -26,13 +26,6 @@
             <ul
               class="gform_fields top_label form_sublabel_above description_above"
             >
-              <li class="interest gfield gfield_label">
-                <label for="input_2_42">
-                  <span class="asterisk-red">*&nbsp;</span>Tell Us What You're
-                  Interested In
-                </label>
-                <v-select :name="input_42" :options="options" />
-              </li>
               <li class="name gfield_label ginput_container_text">
                 <label for="name">
                   <span class="asterisk-red">*&nbsp;</span>Name
@@ -70,7 +63,7 @@
                 <br />
                 <div class="ginput_container ginput_container_textarea">
                   <textarea
-                    name="input_20"
+                    name="wish"
                     id="input_2_20"
                     class="textarea large"
                     aria-invalid="false"
@@ -91,14 +84,11 @@
                         name="more_info"
                         type="checkbox"
                         id="choice_2_37_1"
-                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our Privacy Policy</p>"
+                        value="Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our Privacy Policy."
                       />
                     </li>
                     <li>
-                      <label
-                        for="choice_2_37_1 gfield_required"
-                        id="label_2_37_1"
-                      >
+                      <label for="choice_2_37_1 required" id="label_2_37_1">
                         <p>
                           <span class="asterisk-red">*</span>
                           Yes, I'd also like to receive information about
