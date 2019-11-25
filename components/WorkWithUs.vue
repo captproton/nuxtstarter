@@ -91,7 +91,7 @@
                         name="more_info"
                         type="checkbox"
                         id="choice_2_37_1"
-                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our <a href=&quot;/privacy-policy&quot;>Privacy Policy</a></p>"
+                        value="<p><span class='asterisk-red gfield_required'>*</span> Yes, I'd also like to receive information about additional products or services that may be of interest to me. Information submitted through this form is subject to our Privacy Policy</p>"
                       />
                     </li>
                     <li>
